@@ -1,13 +1,13 @@
-package com.example.demo.service;
+package com.example.InvestingApplication.service;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.example.demo.models.*;
-import com.example.demo.models.Portfolio.StockMetaData;
-import com.example.demo.repository.PortfolioRepository;
-import com.example.demo.repository.StockRepository;
-import com.example.demo.repository.UserRepository;
+import com.example.InvestingApplication.models.*;
+import com.example.InvestingApplication.models.Portfolio.StockMetaData;
+import com.example.InvestingApplication.repository.PortfolioRepository;
+import com.example.InvestingApplication.repository.StockRepository;
+import com.example.InvestingApplication.repository.UserRepository;
 
 public class PortfolioService {
     PortfolioRepository portfolioRepository;

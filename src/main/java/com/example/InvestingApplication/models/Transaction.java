@@ -1,4 +1,4 @@
-package com.example.demo.models;
+package com.example.InvestingApplication.models;
 public class Transaction {
     int id;
     int user_id;

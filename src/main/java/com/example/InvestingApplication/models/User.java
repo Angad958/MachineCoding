@@ -1,4 +1,4 @@
-package com.example.demo.models;
+package com.example.InvestingApplication.models;
 
 public class User {
     int id;

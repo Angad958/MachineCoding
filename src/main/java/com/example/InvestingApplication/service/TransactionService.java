@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.example.InvestingApplication.service;
 
-import com.example.demo.models.*;
-import com.example.demo.repository.TransactionRepository;
+import com.example.InvestingApplication.models.*;
+import com.example.InvestingApplication.repository.TransactionRepository;
 
 public class TransactionService {
     TransactionRepository transactionRepository;

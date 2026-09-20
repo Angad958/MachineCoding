@@ -1,11 +1,11 @@
-package com.example.demo.service;
+package com.example.InvestingApplication.service;
 
 import java.util.Map;
 
-import com.example.demo.models.*;
-import com.example.demo.models.Portfolio.StockMetaData;
-import com.example.demo.models.User.Role;
-import com.example.demo.repository.StockRepository;
+import com.example.InvestingApplication.models.*;
+import com.example.InvestingApplication.models.Portfolio.StockMetaData;
+import com.example.InvestingApplication.models.User.Role;
+import com.example.InvestingApplication.repository.StockRepository;
 
 public class StockService {
     StockRepository stockRepository;

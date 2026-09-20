@@ -1,8 +1,9 @@
-package com.example.demo.repository;
+package com.example.InvestingApplication.repository;
 
-import com.example.demo.models.*;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import com.example.InvestingApplication.models.*;
 
 public class StockRepository {
     Map<Integer, Stock> stockDatabase = new ConcurrentHashMap<>();

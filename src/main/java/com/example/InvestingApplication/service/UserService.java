@@ -1,11 +1,11 @@
-package com.example.demo.service;
+package com.example.InvestingApplication.service;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.example.demo.models.Portfolio;
-import com.example.demo.models.Stock;
-import com.example.demo.models.User;
-import com.example.demo.repository.*;
+import com.example.InvestingApplication.models.Portfolio;
+import com.example.InvestingApplication.models.Stock;
+import com.example.InvestingApplication.models.User;
+import com.example.InvestingApplication.repository.*;
 
 public class UserService {
     UserRepository userRepository;

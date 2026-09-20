@@ -1,18 +1,18 @@
-package com.example.demo;
+package com.example.InvestingApplication;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.example.demo.models.Stock;
-import com.example.demo.models.User;
-import com.example.demo.models.User.Role;
-import com.example.demo.repository.PortfolioRepository;
-import com.example.demo.repository.StockRepository;
-import com.example.demo.repository.TransactionRepository;
-import com.example.demo.repository.UserRepository;
-import com.example.demo.service.PortfolioService;
-import com.example.demo.service.StockService;
-import com.example.demo.service.TransactionService;
-import com.example.demo.service.UserService;
+import com.example.InvestingApplication.models.Stock;
+import com.example.InvestingApplication.models.User;
+import com.example.InvestingApplication.models.User.Role;
+import com.example.InvestingApplication.repository.PortfolioRepository;
+import com.example.InvestingApplication.repository.StockRepository;
+import com.example.InvestingApplication.repository.TransactionRepository;
+import com.example.InvestingApplication.repository.UserRepository;
+import com.example.InvestingApplication.service.PortfolioService;
+import com.example.InvestingApplication.service.StockService;
+import com.example.InvestingApplication.service.TransactionService;
+import com.example.InvestingApplication.service.UserService;
 
 public class InvestingApplication {
 
